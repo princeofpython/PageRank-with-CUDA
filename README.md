@@ -15,12 +15,10 @@ PageRank. It is nothing but a value to a web page that is assigned by a
 PageRanking algorithm. This algorithm scans all possible webpages and
 then calculates the rank accordingly given by a formula. Search engines
 show results according these ranks, which stand for the popularity of the
-page. The lower is the rank, more popular the page is. Traditional ap
-proaches use multi-CPU architecture and this is not a very good choice
+page. The lower is the rank, more popular the page is. Traditional approaches use multi-CPU architecture and this is not a very good choice
 due to the communication overhead and the low processing power of CPU
 compared to GPU. Hence, designing a PageRanking algorithm efficiently
-modified for parallel GPU-CPU environment that achieves higher accu
-racy and consumes lesser time to evaluate the PageRank exact rank vector
+modified for parallel GPU-CPU environment that achieves higher accuracy and consumes lesser time to evaluate the PageRank exact rank vector
 even for large-scale webgraphs.
 
 |No: of nodes| C++| CUDA C++| speedup|
